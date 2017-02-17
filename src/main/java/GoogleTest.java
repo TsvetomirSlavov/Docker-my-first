@@ -34,7 +34,7 @@ public class GoogleTest {
         DesiredCapabilities capabilitiesFirefox = DesiredCapabilities.firefox();
         capabilitiesFirefox.setCapability("version", "");
         capabilitiesFirefox.setCapability("platform", "LINUX");
-        driverFirefox = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"), capabilitiesFirefox);
+        driverFirefox = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilitiesFirefox);
     }
 
     @Test
